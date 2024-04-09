@@ -1,4 +1,8 @@
 /* Reset styles */
+body {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -9,11 +13,8 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -32,4 +33,30 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  max-width: 320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 100%;
+    padding: 0 100px;
+  }
 }
