@@ -81,14 +81,125 @@
       <!-- Vlad -->
       <section class="your-order">
   <div class="container">
-    <h2>Lorem ipsum dolor sit ipsum dolor sit ipsum dolor sit.</h2>
-    <p>Lorem, ipsum.</p>
-    <form action="">
-      <input type="text" />
-      <input type="text" />
-      <input type="text" />
-      <button>lorem</button>
-    </form>
+    <div class="your-order-inform">
+      <h2 class="your-order-title">
+        Fresh <span class="your-order-title-part">Harvest</span> Box has got you
+        covered
+      </h2>
+      <p class="your-order-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+    </div>
+    <div class="your-order-block">
+      <form class="your-order-form">
+        <p class="your-order-form-text">
+          Ordering <span class="your-order-form-firstpart">from us</span> is
+          quick and easy! Fill out
+          <span class="your-order-form-scndpart">the form</span>
+          below and we will contact you !
+        </p>
+        <div class="your-order-form-wrap">
+          <input
+            type="text"
+            name="user-name"
+            class="your-order-form-input"
+            placeholder="Full Name"
+            required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          />
+        </div>
+        <div class="your-order-form-wrap">
+          <input
+            type="email"
+            name="form-email"
+            placeholder="Email"
+            class="your-order-form-input"
+            required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          />
+        </div>
+        <div class="your-order-form-wrap">
+          <textarea
+            name="user-comment"
+            placeholder="Comment"
+            class="your-order-form-comment"
+          ></textarea>
+        </div>
+        <button type="submit" class="your-order-form-btn">Seng</button>
+      </form>
+    </div>
+    <div class="your-order-social">
+      <div class="your-order-social-fresh">
+        <picture>
+          <source
+            srcset="
+              ../img/your-order/des-fresh-2x.jpg 2x,
+              ../img/your-order/des-fresh-1x.jpg 1x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ../img/your-order/tab-fresh-2x.jpg 2x,
+              ../img/your-order/tab-fresh-1x.jpg 1x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../img/your-order/mob-fresh-2x.jpg 2x,
+              ../img/your-order/mob-fresh-1x.jpg 1x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            src="../img/your-order/des-fresh-1x.jpg"
+            alt="Fresh"
+            width="427"
+            height="273"
+            class="your-order-img"
+          />
+        </picture>
+      </div>
+      <p class="your-order-social-text">Follow us on our social networks:</p>
+      <div class="your-order-social-media">
+        <ul class="your-order-social-media-list">
+          <li class="your-order-social-media-item">
+            <a
+              class="your-order-social-media-link"
+              rel="noopener noreferrer nofollow"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+            >
+              <p class="your-order-social-media-text">instagram</p>
+              <p class="your-order-social-media-separ">/</p></a
+            >
+          </li>
+          <li class="your-order-social-media-item">
+            <a
+              class="your-order-social-media-link"
+              rel="noopener noreferrer nofollow"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              ><p class="your-order-social-media-text">facebook</p>
+              <p class="your-order-social-media-separ">/</p>
+            </a>
+          </li>
+          <li class="your-order-social-media-item">
+            <a
+              class="your-order-social-media-link"
+              rel="noopener noreferrer nofollow"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              ><p class="your-order-social-media-text">youtube</p>
+              <p class="your-order-social-media-separ">/</p></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
