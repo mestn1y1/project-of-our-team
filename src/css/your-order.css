@@ -222,7 +222,7 @@
       rgba(20, 20, 20, 0.3),
       rgba(20, 20, 20, 0.3)
     ),
-    url(./img/your-order/mob-fresh-1x.jpg);
+    url(../img/your-order/mob-fresh-1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -236,7 +236,7 @@
         rgba(20, 20, 20, 0.3),
         rgba(20, 20, 20, 0.3)
       ),
-      url(./img/your-order/mob-fresh-2x.jpg);
+      url(../img/your-order/mob-fresh-2x.jpg);
   }
 }
 
