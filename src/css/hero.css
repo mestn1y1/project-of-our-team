@@ -1,11 +1,9 @@
 .hero {
   padding: 100px 0px 0px 0px;
-  /* width: 375px; */
   height: 712px;
   background: url(../img/hero/tel/image-tel-min.jpg) no-repeat #576f35;
   background-position: center bottom;
 
-  /* background-color: #576f35; */
 }
 
 .hero-title {
