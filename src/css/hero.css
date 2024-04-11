@@ -1,6 +1,6 @@
 .hero {
   padding: 100px 0px 0px 0px;
-  width: 375px;
+  /* width: 375px; */
   height: 812px;
   background: url(../img/hero/tel/image-tel-min.jpg) no-repeat 7px 9px #576f35;
   background-position: center bottom;
