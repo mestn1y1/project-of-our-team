@@ -1,3 +1,54 @@
 .hero {
-  background-color: #0aeb7a;
+  padding: 100px 0px 0px 0px;
+  width: 375px;
+  height: 812px;
+  background: url(../img/hero/tel/image-tel-min.jpg) no-repeat 7px 9px #576f35;
+  background-position: center bottom;
+  /* bi: url(/img/hero/image.png); */
+  /* background-color: #576f35; */
 }
+
+.hero-title {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.hero-text {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+  text-align: left;
+}
+
+.container-title {}
+
+/* 
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/hero/hero-image-tab.jpg);
+    max-width: 768px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppi) {
+    .hero {
+      background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero/hero-image-tab2x.jpg);
+    }
+  }
+} */
