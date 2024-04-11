@@ -1,3 +1,88 @@
 .hero {
+<<<<<<< Updated upstream
   background-color: #0aeb7a;
 }
+=======
+  padding: 100px 0px 0px 0px;
+  /* width: 375px; */
+  height: 712px;
+  background: url(../img/hero/tel/image-tel-min.jpg) no-repeat #576f35;
+  background-position: center bottom;
+
+  /* background-color: #576f35; */
+}
+
+.hero-title {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+  text-align: left;
+  max-width: 335px;
+}
+
+.hero-text {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+  text-align: left;
+  margin-bottom: 40px;
+  max-width: 335px;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .hero {
+
+    padding: 122px 0px 0px 0px;
+    max-width: 768px;
+    height: 902px;
+    background: url(../img/hero/tab/image-tab-min.jpg) no-repeat #576f35;
+    background-position: center bottom;
+  }
+
+  .hero-title {
+    max-width: 704px;
+    font-size: 76px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    margin-bottom: 25px;
+  }
+
+  .hero-text {
+    max-width: 603px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppi) {
+    .hero {
+
+      padding: 122px 0px 0px 0px;
+      height: 902px;
+      background: url(../img/hero/tab/image-tab-x2-min.jpg) no-repeat #576f35;
+      background-position: center bottom;
+    }
+  }
+}
+
+
+/* background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../img/hero/tab/image-tab-min.jpg); */
+
+/* background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../img/hero/tab/image-tab-x2-min.jpg); */
+>>>>>>> Stashed changes
