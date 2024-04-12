@@ -1,15 +1,8 @@
 .hero {
-<<<<<<< Updated upstream
-  background-color: #0aeb7a;
-}
-=======
   padding: 100px 0px 0px 0px;
-  /* width: 375px; */
   height: 712px;
   background: url(../img/hero/tel/image-tel-min.jpg) no-repeat #576f35;
   background-position: center bottom;
-
-  /* background-color: #576f35; */
 }
 
 .hero-title {
@@ -35,7 +28,6 @@
   margin-bottom: 40px;
   max-width: 335px;
 }
-
 
 
 
@@ -75,14 +67,6 @@
       background-position: center bottom;
     }
   }
+
 }
 
-
-/* background-image:
-        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../img/hero/tab/image-tab-min.jpg); */
-
-/* background-image:
-        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../img/hero/tab/image-tab-x2-min.jpg); */
->>>>>>> Stashed changes
