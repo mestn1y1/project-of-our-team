@@ -331,6 +331,10 @@
     height: 52px;
   }
 
+  .your-order-form-input:hover {
+    border-color: #7a3145;
+  }
+
   .your-order-form-input::placeholder {
     padding: 16px 345px 16px 0px;
     font-size: 16px;
@@ -353,6 +357,10 @@
     height: 95px;
     resize: none;
     margin-bottom: 25px;
+  }
+
+  .your-order-form-comment:hover {
+    border-color: #7a3145;
   }
 
   .your-order-form-comment::placeholder {
@@ -401,6 +409,7 @@
   }
 
   .your-order-social-media {
+    margin-top: 50px;
     width: 492px;
   }
 
@@ -507,6 +516,5 @@
 
   .your-order-social-media {
     width: 357px;
-    margin-top: 50px;
   }
 }
