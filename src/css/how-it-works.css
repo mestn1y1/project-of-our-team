@@ -78,7 +78,8 @@
   color: #141414;
 }
 
-.step-item:nth-child(2) {
+.step-item:nth-child(2) p {
+  width: 176px;
 }
 
 @media screen and (min-width: 768px) {
@@ -126,8 +127,8 @@
     line-height: 1.25;
   }
 
-  .br {
-    display: none;
+  .step-item:nth-child(2) p {
+    width: 312px;
   }
 }
 
