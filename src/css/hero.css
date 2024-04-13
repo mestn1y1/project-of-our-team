@@ -1,25 +1,22 @@
 .hero {
   background-color: #576f35;
-  min-width: 375px;
+  max-width: 375px;
+  height: 812px;
   padding: 100px 0px 0px 0px;
+  background: url(../img/hero/tel/image-tel-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
+  background-size: 375px 370px;
 
 }
 
-.conteiner-image {
-  background: url(../img/hero/tel/image-tel-min.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-width: 375px;
-  height: 370px;
-}
+
 
 @media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
-  .conteiner-image {
-    background: url(../img/hero/tel/image-tel-x2-min.jpg);
-    background-size: cover;
+  .hero {
+    background: url(../img/hero/tel/image-tel-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
+    background-size: 375px 370px;
   }
+
 }
 
 .hero-title {
@@ -39,14 +36,16 @@
   font-size: 14px;
   line-height: 1.29;
   color: #fbfbfb;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   max-width: 335px;
 }
 
 @media screen and (min-width: 768px) {
   .hero {
     padding: 122px 0px 0px 0px;
-    min-width: 768px;
+    max-width: 768px;
+    height: 1024px;
+    background: url(../img/hero/tab/image-tab-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
   }
 
   .hero-title {
@@ -60,55 +59,51 @@
     max-width: 603px;
     font-size: 16px;
     line-height: 1.25;
-    margin-bottom: 50px;
+
 
   }
-
-  .conteiner-image {
-    height: 539px;
-    min-width: 768px;
-    background: url(../img/hero/tab/image-tab-min.jpg);
-    background-size: cover;
-  }
-
 
   @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
-    .conteiner-image {
-      background: url(../img/hero/tab/image-tab-x2-min.jpg);
-      background-size: cover;
+    .hero {
+      background: url(../img/hero/tab/image-tab-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
+
+      background-size: 768px 539px;
     }
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero {
-    padding: 0px 0px 0px 100px;
+    padding: 238px 0px 0px 0px;
     max-width: 1280px;
     height: 800px;
-    background: #576f35;
-    overflow: hidden;
-    position: relative;
-  }
+    background: url(../img/hero/Desktop/image-desktop-min.jpg) no-repeat right top, linear-gradient(#576f35, #576f35);
+    background-size: 632px 800px;
 
-  .conteiner-image {
-
-    background: url(../img/hero/Desktop/image-desktop-min.jpg);
-    position: absolute;
-    min-width: 632px;
-    height: 800px;
-    top: 0;
-    right: 0;
-  }
-
-  .hero .container {
-    margin-left: -117px;
   }
 
   .hero-title {
     max-width: 502px;
+    font-size: 76px;
+    margin-bottom: 128px;
+  }
+
+  .hero-text {
+    max-width: 472px;
+
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    .hero {
+      background: url(../img/hero/Desktop/image-desktop-x2-min.jpg) no-repeat right top, linear-gradient(#576f35, #576f35);
+      background-size: 632px 800px;
+    }
   }
 }
+
+
 
 
 
