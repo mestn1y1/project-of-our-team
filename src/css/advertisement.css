@@ -34,7 +34,7 @@
 .advertisement-span{
     position: relative;
     left: -10px;
-    min-width: 335px;
+    min-width: 355px;
     display: inline-block;
     font-weight: 600;
     font-size: 48px;
@@ -114,7 +114,7 @@
 .advertisement-span{
   display: inline-block;
   position: relative;
-  left: -10px;
+  left: -13px;
   width: 825px;
   font-size: 76px;  
   background-image: url(../img/advertisement/deskadvx1.jpg);
