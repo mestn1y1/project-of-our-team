@@ -1,9 +1,29 @@
 .hero {
+  display: flex;
+  max-width: 375px;
+
+  height: 100vh;
   padding: 100px 0px 0px 0px;
+
+
   height: 712px;
   background: url(../img/hero/tel/image-tel-min.jpg) no-repeat #576f35;
   background-position: center bottom;
 }
+
+
+/* 
+.container-text {
+  max-width: 335px;
+  height: 302px;
+
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+
+} */
 
 .hero-title {
   font-family: "Inter Tight", sans-serif;
@@ -15,7 +35,7 @@
   color: #fbfbfb;
   margin-bottom: 20px;
   text-align: left;
-  max-width: 335px;
+
 }
 
 .hero-text {
@@ -25,7 +45,7 @@
   line-height: 1.29;
   color: #fbfbfb;
   text-align: left;
-  margin-bottom: 40px;
+
   max-width: 335px;
 }
 
@@ -41,12 +61,61 @@
     background-position: center bottom;
   }
 
+  .container-text {
+    width: 704px;
+    height: 313px;
+  }
+
   .hero-title {
-    max-width: 704px;
+    /* max-width: 704px; */
     font-size: 76px;
     line-height: 1;
     letter-spacing: -0.01em;
     margin-bottom: 25px;
+  }
+
+  .hero-text {
+    max-width: 603px;
+    font-size: 16px;
+    line-height: 1.25;
+
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppi) {
+    .hero {
+      padding: 122px 0px 0px 0px;
+      height: 902px;
+      background: url(../img/hero/tab/image-tab-x2-min.jpg) no-repeat #576f35;
+      background-position: center bottom;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+
+  .hero {
+
+
+    padding: 0px 0px 0px 100px;
+    max-width: 1280px;
+    height: 800px;
+    background: url(../img/hero/Desktop/image-desktop-min.jpg) no-repeat #576f35;
+    /* background: linear-gradient(url(../img/hero/Desktop/image-desktop-min.jpg) 0 50%, #576f35 50% 100%); */
+    background-position: top right;
+  }
+
+
+  .hero-title {
+
+    max-width: 704px;
+    font-size: 76px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    margin-right: 100px;
+    margin-left: 28px;
   }
 
   .hero-text {
@@ -60,11 +129,11 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppi) {
     .hero {
-
-      padding: 122px 0px 0px 0px;
-      height: 902px;
-      background: url(../img/hero/tab/image-tab-x2-min.jpg) no-repeat #576f35;
-      background-position: center bottom;
+      padding: 0px 0px 0px 100px;
+      width: 1280px;
+      height: 800px;
+      background: url(../img/hero/Desktop/image-desktop-x2-min.jpg) no-repeat #576f35;
+      background-position: top right;
     }
   }
 
