@@ -1,5 +1,5 @@
 .advertisement {
-  background-color: FBFBFB; 
+  background-color: #FBFBFB; 
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -21,22 +21,24 @@
 .advertisement-text{
     font-weight: 600;
     font-size: 48px;
-    line-height: 104%;
+    line-height: 1.04;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #141414;
     text-align: left;
-    max-width: 355px;
-    
+    min-width: 335px;
     /* padding-left: 10px;
     padding-right: 10px; */
 }
 
 .advertisement-span{
+    position: relative;
+    left: -10px;
+    min-width: 335px;
     display: inline-block;
     font-weight: 600;
     font-size: 48px;
-    line-height: 104%;
+    line-height: 1.04;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #FBFBFB;
@@ -45,8 +47,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* padding-left: 10px;
-      padding-right: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -76,6 +78,11 @@
 .advertisement-span{
   font-size: 64px;
   background-image: url(../img/advertisement/tabadvx1.jpg);
+  position: relative;
+  left: -10px;
+  min-width: 736px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -99,14 +106,20 @@
 
 .advertisement-text{
   font-size: 76px;
-  max-width: 1054px;
-  text-align: left;
+  min-width: 1054px;
+  /* text-align: left; */
+  
 }
 
 .advertisement-span{
   display: inline-block;
+  position: relative;
+  left: -10px;
+  width: 825px;
   font-size: 76px;  
   background-image: url(../img/advertisement/deskadvx1.jpg);
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
