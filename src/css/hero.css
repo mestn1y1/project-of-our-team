@@ -1,5 +1,5 @@
 .hero {
-  display: flex;
+  /* display: flex; */
   max-width: 375px;
 
   height: 100vh;
@@ -45,7 +45,6 @@
   line-height: 1.29;
   color: #fbfbfb;
   text-align: left;
-
   max-width: 335px;
 }
 
@@ -53,7 +52,6 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-
     padding: 122px 0px 0px 0px;
     max-width: 768px;
     height: 902px;
@@ -78,7 +76,6 @@
     max-width: 603px;
     font-size: 16px;
     line-height: 1.25;
-
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -94,11 +91,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-
-
   .hero {
-
-
     padding: 0px 0px 0px 100px;
     max-width: 1280px;
     height: 800px;
@@ -107,9 +100,7 @@
     background-position: top right;
   }
 
-
   .hero-title {
-
     max-width: 704px;
     font-size: 76px;
     line-height: 1;
@@ -129,9 +120,6 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppi) {
     .hero {
-      padding: 0px 0px 0px 100px;
-      width: 1280px;
-      height: 800px;
       background: url(../img/hero/Desktop/image-desktop-x2-min.jpg) no-repeat #576f35;
       background-position: top right;
     }
