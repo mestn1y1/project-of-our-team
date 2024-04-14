@@ -13,7 +13,7 @@ body {
 @media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .hero {
-    background: url(../img/hero/tel/image-tel-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
+    background: url(/img/hero/tel/image-tel-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
     background-size: 375px 370px;
   }
 }
@@ -42,14 +42,14 @@ body {
   .hero {
     background-color: #576f35;
     height: 100%;
-    background: url(../img/hero/tel/image-tel-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
+    background: url(/img/hero/tel/image-tel-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
     background-size: 375px 370px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
     .hero {
-      background: url(../img/hero/tel/image-tel-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
+      background: url(/img/hero/tel/image-tel-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
       background-size: 375px 370px;
     }
   }
@@ -77,13 +77,13 @@ body {
 @media screen and (min-width:768px) and (max-width:1279px) {
   .hero {
     height: 1024px;
-    background: url(../img/hero/tab/image-tab-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
+    background: url(/img/hero/tab/image-tab-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
   }
 
   @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
     .hero {
-      background: url(../img/hero/tab/image-tab-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
+      background: url(/img/hero/tab/image-tab-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
       background-size: 768px 539px;
     }
   }
