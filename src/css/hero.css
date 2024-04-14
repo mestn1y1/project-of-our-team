@@ -1,9 +1,14 @@
+body {
+  overflow-x: hidden;
+}
+
 .hero {
-  /* background-color: #576f35;
-    height: 100%; */
   padding: 100px 0px 415px 0px;
-  /* background: url(../img/hero/tel/image-tel-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
-  background-size: 375px 370px; */
+}
+
+.hero-image-containet {
+  display: none;
+
 }
 
 
@@ -32,7 +37,7 @@
   font-size: 14px;
   line-height: 1.29;
   color: #fbfbfb;
-  /* margin-bottom: 40px; */
+
   max-width: 335px;
 }
 
@@ -58,10 +63,6 @@
 @media screen and (min-width: 768px) {
   .hero {
     padding: 122px 0px 0px 0px;
-    /* max-width: 768px; */
-    height: 1024px;
-    /* background: url(../img/hero/tab/image-tab-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35); */
-    /* background-size: cover; */
   }
 
   .hero-title {
@@ -79,14 +80,6 @@
 
 }
 
-/* @media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
-  .hero {
-    background: url(../img/hero/tab/image-tab-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
-
-    background-size: 768px 539px;
-  }
-} */
 
 @media screen and (min-width:768px) and (max-width:1279px) {
   .hero {
@@ -114,12 +107,13 @@
   .container-flex {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 100%;
+    height: calc(100vh - 52px);
+
   }
 
   .tex-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
 
@@ -128,12 +122,34 @@
   .hero-image-containet {
     width: 100%;
 
+    display: block !important;
+    position: relative;
+
   }
 
-  .hero-img {
+  .hero-image {
     height: 100%;
+    width: 50vw;
+    max-width: 640px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .hero-image img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
+  }
+
+
+
+  .hero-title {
+    margin-bottom: 128px;
+  }
+
+  .hero-text {
+    margin-bottom: 50px;
   }
 
 }
