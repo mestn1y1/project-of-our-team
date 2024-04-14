@@ -1,25 +1,22 @@
-body {
-  overflow-x: hidden;
-}
-
 .hero {
-  padding: 100px 0px 415px 0px;
+  padding: 100px 0px 0px 0px;
+  height: 812px;
+  background: url(/img/hero/tel/image-tel-min.jpg) no-repeat,
+    linear-gradient(#576f35, #576f35);
+  background-position: bottom center;
 }
 
-.hero-image-containet {
-  display: none;
-}
-
-@media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .hero {
-    background: url(/img/hero/tel/image-tel-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
+    background: url(/img/hero/tel/image-tel-x2-min.jpg) no-repeat,
+      linear-gradient(#576f35, #576f35);
     background-size: 375px 370px;
+    background-position: bottom center;
   }
 }
 
 .hero-title {
-  font-family: "Inter Tight", sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 48px;
   line-height: 1;
@@ -30,7 +27,7 @@ body {
 }
 
 .hero-text {
-  font-family: "Inter Tight", sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -38,26 +35,22 @@ body {
   max-width: 335px;
 }
 
-@media screen and (max-width: 767px) {
-  .hero {
-    background-color: #576f35;
-    height: 100%;
-    background: url(/img/hero/tel/image-tel-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
-    background-size: 375px 370px;
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
-    .hero {
-      background: url(/img/hero/tel/image-tel-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
-      background-size: 375px 370px;
-    }
-  }
-}
-
 @media screen and (min-width: 768px) {
   .hero {
     padding: 122px 0px 0px 0px;
+    height: 1024px;
+    background: url(/img/hero/tab/image-tab-min.jpg) no-repeat,
+      linear-gradient(#576f35, #576f35);
+    background-position: bottom center;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero {
+      background: url(/img/hero/tab/image-tab-x2-min.jpg) no-repeat,
+        linear-gradient(#576f35, #576f35);
+      background-size: 768px 539px;
+      background-position: bottom center;
+    }
   }
 
   .hero-title {
@@ -74,67 +67,31 @@ body {
   }
 }
 
-@media screen and (min-width:768px) and (max-width:1279px) {
-  .hero {
-    height: 1024px;
-    background: url(/img/hero/tab/image-tab-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi) {
-    .hero {
-      background: url(/img/hero/tab/image-tab-x2-min.jpg) no-repeat bottom, linear-gradient(#576f35, #576f35);
-      background-size: 768px 539px;
-    }
-  }
-}
-
 @media screen and (min-width: 1280px) {
   .hero {
-    padding: 0;
-    background: #576f35;
+    padding-top: 258px;
+    height: 800px;
+    background: url(/img/hero/Desktop/image-desktop-min.jpg) no-repeat,
+      linear-gradient(#576f35, #576f35);
+    background-position: right;
+    background-size: 50% 100%;
   }
 
-  .container-flex {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: calc(100vh - 52px);
-  }
-
-  .tex-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .hero-image-containet {
-    width: 100%;
-    display: block !important;
-    position: relative;
-  }
-
-  .hero-image {
-    height: 100%;
-    width: 50vw;
-    max-width: 640px;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  .hero-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero {
+      background: url(/img/hero/Desktop/image-desktop-x2-min.jpg) no-repeat,
+        linear-gradient(#576f35, #576f35);
+      background-position: right;
+      background-size: 50% 100%;
+    }
   }
 
   .hero-title {
     margin-bottom: 128px;
+    max-width: 502px;
   }
 
   .hero-text {
     width: 472px;
-    margin-bottom: 50px;
   }
 }
