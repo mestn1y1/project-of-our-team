@@ -10,7 +10,6 @@ body {
   display: none;
 }
 
-
 @media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .hero {
