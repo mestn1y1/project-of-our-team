@@ -134,6 +134,7 @@ body {
   }
 
   .hero-text {
+    width: 472px;
     margin-bottom: 50px;
   }
 }
