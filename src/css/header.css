@@ -1,10 +1,10 @@
 header {
-  position: absolute;
+  position: fixed;
+  padding: 20px 0;
   left: 0;
-  top: 32px;
   width: 100%;
-  background-color: transparent;
   z-index: 1;
+  background-color: #576f35e6;
 }
 
 .mob-header{
@@ -196,6 +196,9 @@ margin-right: 4px;}
 
 
 @media screen and (min-width: 768px){
+  header {
+    padding: 32px 0;
+  }
 
 
 .logo-icone-one-mob {display: none;}
@@ -253,6 +256,13 @@ margin-right: 4px;}
 }
 
 @media screen and (min-width: 1280px){
+  header {
+    position: absolute;
+    padding: 0;
+    top: 32px;
+    background-color: transparent;
+  }
+
   .backdrop-menu{
     display: none;
   }
