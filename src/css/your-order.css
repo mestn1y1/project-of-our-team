@@ -287,7 +287,8 @@
   color: #fbfbfb;
 }
 
-.your-order-social-media-separ {
+.your-order-social-media-link span {
+  margin-left: 8px;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.08;
@@ -438,7 +439,8 @@
     line-height: 1.08;
   }
 
-  .your-order-social-media-separ {
+  .your-order-social-media-link span {
+    margin-left: 12px;
     font-size: 32px;
     line-height: 1;
   }
