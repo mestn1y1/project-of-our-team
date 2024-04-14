@@ -1,7 +1,9 @@
 header {
-  background-color: transparent;
   position: absolute;
+  left: 0;
   top: 32px;
+  width: 100%;
+  background-color: transparent;
 }
 
 .mob-header{
