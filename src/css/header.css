@@ -23,7 +23,8 @@ header {
   align-items: center;
 }
 
-.logo-icone-one-mob {fill:#fbfbfb;}
+.logo-icone-one-mob {fill:#fbfbfb;
+margin-right: 4px;}
 
 .logo-icon-two-mob {fill:#fbfbfb;}
 
@@ -199,7 +200,8 @@ header {
 .logo-icone-one-mob {display: none;}
 .logo-icon-two-mob {display: none;}
 
-.logo-icone-one{fill:#fbfbfb}
+.logo-icone-one{fill:#fbfbfb;
+margin-right: 4px;}
 .logo-icon-two {fill:#fbfbfb}
 
 
@@ -277,14 +279,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 8px;
   }
   
-  .header-item-td {
-  }
-  
-  .header-item-td:not(:last-child){
-    margin-right: 8px;
-  }
+  .header-item-td {}
   
   .header-link-td {
     border: 1px solid rgba(251, 251, 251, 0.4);
