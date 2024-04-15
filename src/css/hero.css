@@ -93,6 +93,22 @@
       background-size: 50% 100%;
     }
   }
+  /* 
+  @media (min-width: 1440px) and (max-width: 1980px) {
+    .hero {
+      background-size: 650px 100%;
+      background-position: calc(60% + 23%);
+    }
+
+    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .hero {
+        background: url(/img/hero/Desktop/image-desktop-x2-min.jpg) no-repeat,
+          linear-gradient(#576f35, #576f35);
+        background-position: right;
+        background-size: 650px 100%;
+      }
+    }
+  } */
 
   .hero-title {
     margin-bottom: 128px;

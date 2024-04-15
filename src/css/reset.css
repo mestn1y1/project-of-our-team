@@ -78,3 +78,19 @@ img {
     padding: 0 100px;
   }
 }
+
+@media (min-width: 1640px) and (max-width: 3980px) {
+  section {
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+
+  .your-order {
+    width: 2000px;
+  }
+
+  footer {
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+}
