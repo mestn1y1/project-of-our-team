@@ -438,6 +438,7 @@
 
   .your-order-social-media-list {
     gap: 12px;
+    max-width: 492px;
   }
 
   .your-order-social-media-link {
@@ -530,5 +531,8 @@
         ),
         url(../img/your-order/des-fresh-2x.jpg);
     }
+  }
+  .your-order-social-media-list {
+    max-width: 357px;
   }
 }
