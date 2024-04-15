@@ -23,7 +23,14 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+  max-width: 335px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .hero-title {
+    font-size: 40px;
+  }
 }
 
 .hero-text {
@@ -58,6 +65,7 @@
     line-height: 1;
     letter-spacing: -0.01em;
     margin-bottom: 25px;
+    max-width: 704px;
   }
 
   .hero-text {

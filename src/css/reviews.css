@@ -12,6 +12,12 @@
   margin-bottom: 20px;
 }
 
+@media (min-width: 320px) and (max-width: 374px) {
+  .reviews-title {
+    font-size: 44px;
+  }
+}
+
 .reviews-title-item {
   color: #576f35;
 }

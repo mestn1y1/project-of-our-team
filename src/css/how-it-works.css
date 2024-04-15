@@ -79,7 +79,7 @@
 }
 
 .step-item:nth-child(2) p {
-  width: 176px;
+  max-width: 176px;
 }
 
 @media screen and (min-width: 768px) {
