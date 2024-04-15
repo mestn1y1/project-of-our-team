@@ -276,10 +276,11 @@
 
 .your-order-social-media {
   margin-top: 20px;
-  width: 295px;
+  max-width: 295px;
 }
 
 .your-order-social-media-list {
+  max-width: 295px;
   display: flex;
   flex-direction: row;
   gap: 8px;
@@ -426,7 +427,7 @@
 
   .your-order-social-media {
     margin-top: 50px;
-    width: 492px;
+    max-width: 492px;
   }
 
   .your-order-social-text {
@@ -532,6 +533,6 @@
   }
 
   .your-order-social-media {
-    width: 357px;
+    max-width: 357px;
   }
 }
